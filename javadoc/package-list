@@ -1,0 +1,5 @@
+org.stormdev.mc.servermonitor.api
+org.stormdev.mc.servermonitor.api.detectors
+org.stormdev.mc.servermonitor.api.events
+org.stormdev.mc.servermonitor.api.reports
+org.stormdev.mc.servermonitor.api.responses
