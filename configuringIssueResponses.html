@@ -166,12 +166,12 @@
 						<h4>Setting up 'If This Then That':</h4>
 						<ol>
 							<li><b>Login to</b> or <b>setup a free 'If This Then That' account</b>. You can do that by <a href="https://ifttt.com/join" target="_blank">visiting this page.</a></li>
-							<li>Find out your <b>'maker channel key'</b>. Do that by going to <a href="https://ifttt.com/maker" target="_blank">ifttt.com/maker</a>, clicking <b>'Connect'</b> and then taking a note of the key it says
-							<br><img src="img/config/ifttt/1.png" /><br><img src="img/config/ifttt/2.png" /></li>
+							<li>Find out your <b>'maker channel key'</b>. Do that by going to <a href="https://ifttt.com/maker_webhooks" target="_blank">ifttt.com/maker_webhooks</a>, clicking <b>'Settings'</b>, visiting the web page at the <b>provided URL</b> and then taking a note of the <b>key</b> it says
+							<br><img src="img/config/ifttt2/1.png" /><br><br><img src="img/config/ifttt2/2.png" /><br><br><img src="img/config/ifttt2/3.png" /></li>
 							<li>Put your <b>maker channel key</b> into <a href="#makerChannelKeyConfigKey">the config</a></li>
-							<li>Create a recipe at <a href="https://ifttt.com/myrecipes/personal/new" target="_blank">ifttt.com/myrecipes/personal/new</a></li>
+							<li>Create a new applet at <a href="https://ifttt.com/create" target="_blank">https://ifttt.com/create</a></li>
 							<li>Click on <b>'This'</b></li>
-							<li>Select the Trigger Channel as <b>'Maker'</b><br><img src="img/config/ifttt/3.png" /></li>
+							<li>Select the service <b>'Webhooks'</b><br><img src="img/config/ifttt2/4.png" /></li>
 							<li>Choose the <b>'Receive a web request'</b> trigger</li>
 							<li>Make the <b>Event Name</b> the <b>EventID</b> as listed in <a href="#iftttListenedEventIDS">the config</a><br><img src="img/config/ifttt/4.png" /></li>
 							<li>Click <b>'Create Trigger'</b></li>
@@ -188,8 +188,8 @@
 								</ol>
 								<br><img src="img/config/ifttt/5.png" />
 							</li>
-							<li>Click <b>'Create Action'</b> and then <b>'Create Recipe'</b><br><img src="img/config/ifttt/6.png" /></li>
-							<li>Make sure <b>to test</b> that your recipe works. You can use <b>'/crashserver'</b> (Will only test freeze crashes) or <b>'/lagserver'</b> in game to do this</li>
+							<li>Click <b>'Create Action'</b> and then <b>'Finish'</b><br><img src="img/config/ifttt2/5.png" /></li>
+							<li>Make sure <b>to test</b> that your applet works. You can use <b>'/crashserver'</b> (Will only test freeze crashes) or <b>'/lagserver'</b> in game to do this</li>
 						</ol>
 					</div>
 					<div id="configIFTTT">
